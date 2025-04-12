@@ -70,7 +70,6 @@ sentry-bkp/
      - sentry-data
      - sentry-postgres
      - sentry-redis
-     - sentry-zookeeper
      - sentry-kafka
      - sentry-clickhouse
      - sentry-symbolicator

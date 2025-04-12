@@ -3,7 +3,7 @@
 # Sentry Backup Script
 # Author: Thiago T Faioli a.k.a 0xttfx - <faioli@0x.systems>
 # Version: 1.1.0
-# Date: 2024-04-11
+# Date: 2025-04-11
 # Description: Creates a complete backup of Sentry self-hosted instance
 
 # Exit on error, undefined variables, and pipe failures
@@ -175,7 +175,6 @@ VOLUMES=(
     "sentry-data"
     "sentry-postgres"
     "sentry-redis"
-    "sentry-zookeeper"
     "sentry-kafka"
     "sentry-clickhouse"
     "sentry-symbolicator"
